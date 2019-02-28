@@ -22,7 +22,7 @@
         let lName = document.getElementById("nameForm").last.value;
         if (mName.length === 1) {
           let fullName = fName + " " + mName + ". " + lName;
-          return fullName;
+          document.getElementById("name").innerHTML = fullName;
         } else {
           let fullName = fName + " " + mName + " " + lName;
           document.getElementById("name").innerHTML = fullName;
